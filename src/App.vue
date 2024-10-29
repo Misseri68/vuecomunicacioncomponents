@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PadreNumeros/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PadreNumeros from './components/PadreNumeros.vue';
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PadreNumeros
   }
 }
 </script>
