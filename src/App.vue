@@ -1,16 +1,16 @@
 <template>
-  <PadreNumeros/>
+  <MenuComponent/>
+  <router-view/>
 </template>
 
 <script>
-import PadreNumeros from './components/PadreNumeros.vue';
-
+import MenuComponent from './components/MenuComponent.vue';
 
 
 export default {
   name: 'App',
   components: {
-    PadreNumeros
+    MenuComponent,
   }
 }
 </script>
