@@ -1,16 +1,16 @@
 <template>
-  <MenuComponent/>
+  <MenuTablaMultiplcar/>
   <router-view/>
 </template>
 
 <script>
-import MenuComponent from './components/MenuComponent.vue';
+import MenuTablaMultiplcar from './components/MenuTablaMultiplcar.vue';
 
 
 export default {
   name: 'App',
   components: {
-    MenuComponent,
+    MenuTablaMultiplcar
   }
 }
 </script>
